@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Imagens/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Início</a>
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="areas.html">Áreas Verdes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pavimento.html">Pavimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planta.html">Plantação Especializada</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<body>
+<h2>Início</h2>
+
+<div class="container mt-5">
+  <div class="row align-items-center">
+
+    <div class="col-md-6 order-md-1 order-2">
+      <h2>Problema</h2>
+      <p></p>
+    </div>
+
+    <div class="col-md-6 order-md-2 order-1">
+      <img src="Imagens/areaVerdeImagem.jpg" class="img-fluid rounded">
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">                     <!--Cards-->
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Imagens/areaVerdeImagem.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Áreas Verdes</h5>
+          <a href="areas.html" class="btn btn-success">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Imagens/pavimentoPermeavelImagem.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Pavimento Permeável</h5>
+          <a href="pavimento.html" class="btn btn-success">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Imagens/plntasAdaptadasImagem.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Plantas Adaptadas</h5>
+          <a href="planta.html" class="btn btn-success">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">       <!--Carrosel de imagens-->
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="Imagens/pavimentoPermeavelImagem.jpg" class="d-block w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="Imagens/areaVerdeImagem.jpg" class="d-block w-100">
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+
+
+
+
+
+
+<footer class="bg-dark text-white text-center p-3 mt-4">
+  <p>Trabalho escolar - 2026</p>
+</footer>
+</html>
