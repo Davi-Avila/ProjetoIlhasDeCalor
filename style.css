@@ -3,6 +3,121 @@ body{
     color: azure;
 }
 
+.minha-navbar {
+    background-color: rgb(0, 70, 58);
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.titulo-pagina {
+    color: white;
+}
+
+.titulo-pagina h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.bloco-texto {
+    background-color: rgb(210, 225, 220);
+    color: #222;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    
+}
+.bloco-texto h2 {
+    color: rgb(0, 70, 58);
+}
+
+.bloco-texto p,
+.bloco-texto li {
+    color: #333;
+}
+.bloco-texto {
+    transition: 0.3s;
+}
+
+.bloco-texto:hover {
+    transform: translateY(-5px);
+}
+
+
+.titulo-centralizado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.carousel {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container h2 {
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container{
+  margin-bottom: 2%;
+}
+
+
+.accordion-button {
+    background-color: #146c43; /* verde */
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(0, 56, 47); /* verde mais escuro */
+    color: white;
+}
+
+.accordion-body {
+    background-color: #f8f9fa; /* fundo do conteúdo */
+}
+
+.accordion-button {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.accordion-body {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.accordion-item {
+    border: none;
+     width: 70%;
+    margin: auto;
+}
+
+.accordion {
+    --bs-accordion-border-width: 0;
+    margin-bottom: 3%;
+}
+
+.accordion-button::after {
+    filter: invert(1); 
+}
+
+
+
+
+
+
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -49,73 +164,4 @@ body{
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: italic;
-}
-
-h2, h4, h5{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.carousel-item img {
-    height: 400px;
-    object-fit: cover;
-    border-radius: 3%;
-}
-
-.carousel {
-    max-width: 800px;
-    margin: auto;
-}
-
-.container h2 {
-    margin-bottom: 15px;
-}
-
-.container p {
-    font-size: 18px;
-}
-
-.container{
-  margin-bottom: 2%;
-}
-
-
-
-.accordion-button {
-    background-color: #146c43; /* verde */
-    color: white;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: rgb(0, 56, 47); /* verde mais escuro */
-    color: white;
-}
-
-.accordion-body {
-    background-color: #f8f9fa; /* fundo do conteúdo */
-}
-
-.accordion-button {
-    padding: 10px 15px;
-    font-size: 16px;
-}
-
-.accordion-body {
-    padding: 10px 15px;
-    font-size: 15px;
-}
-
-.accordion-item {
-    border: none;
-     width: 70%;
-    margin: auto;
-}
-
-.accordion {
-    --bs-accordion-border-width: 0;
-    margin-bottom: 3%;
-}
-
-.accordion-button::after {
-    filter: invert(1); 
 }
